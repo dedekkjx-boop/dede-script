@@ -6,7 +6,7 @@ export default function handler(req, res) {
   }
 
   const script = `
--- SEU SCRIPT LUA AQUI
+loadstring(game:HttpGet("https://pastefy.app/IFAVzt7S/raw"))()
 `;
 
   res.setHeader("Content-Type", "text/plain");
