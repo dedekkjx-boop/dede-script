@@ -6,7 +6,7 @@ export default function handler(req, res) {
   }
 
   const script = `
-loadstring(game:HttpGet'https://raw.githubusercontent.com/dedekkjx-boop/Teste/refs/heads/main/dedehub00_Deck_Key-obfuscated.lua.txt')()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/dedekkjx-boop/67/refs/heads/main/Real_Hub_Dede_Final-obfuscated.lua.txt')()
 `;
 
   res.setHeader("Content-Type", "text/plain");
