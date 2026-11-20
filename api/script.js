@@ -6,7 +6,7 @@ export default function handler(req, res) {
   }
 
   const script = `
-loadstring(game:HttpGet'https://raw.githubusercontent.com/dedekkjx-boop/Teste/refs/heads/main/Real_Hub_Dede_Max%20(1).lua')()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/dedekkjx-boop/Teste/refs/heads/main/Real_Hub_Dede_Max_fix.lua')()
 `;
 
   res.setHeader("Content-Type", "text/plain");
